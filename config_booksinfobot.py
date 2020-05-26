@@ -1,0 +1,2 @@
+TOKEN = '1007734582:AAFiZ7qTOVG3qJ5G0d6UBOHt0-ia1ivejvE'
+key = 'AIzaSyB8S9P_XjtdjJaV6ct_g7PctrUcbCW3R2w'
