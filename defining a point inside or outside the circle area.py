@@ -14,4 +14,4 @@ print((area_of_circle) > distance_point_1)
 point_2 = (30, 30)
 distance_point_2 = (point_2[0] **2 + point_2[1] **2) ** 0.5
 
-print((area_of_circle) > distance_point_2)
+print((area_of_circle) > (distance_point_2)
