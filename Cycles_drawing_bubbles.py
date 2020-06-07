@@ -23,27 +23,27 @@ def bubble(point, step):
         sd.circle(center_position=point, radius=radius, width=2)
 
 point = sd.get_point(100, 100)
-buble(point=point, step=10)
+bubble(point=point, step=10)
 
 # Draw 10 bubbles in line
 
 for x in range(100, 1001, 100):
     point = sd.get_point(x, 100)
-    buble(point=point, step=5)
+    bubble(point=point, step=5)
 
 # Draw 3 lines with ten bubbles
 
 for y in range(100, 301, 100):
     for x in range(100, 1001, 100):
-    point = sd.get_point(x, y)
-    buble(point=point, step=5)
+        point = sd.get_point(x, y)
+        bubble(point=point, step=5)
 
 # 100 bubbles in different locations of the screen, by different colours
 
 for _ in range(100):
     point = sd.random.randint(2, 10)
     step = random
-    buble(point=point, step=step)
+    bubble(point=point, step=step)
 
 sd.pause()
 
